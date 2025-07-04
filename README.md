@@ -56,25 +56,25 @@ streamlit run frontend.py
 ## 📐 Diagramme de Séquence (Traitement d’un Rêve)
 
 ```plantuml
-@startuml
-actor Utilisateur
-participant "Streamlit App" as UI
-participant "Groq API\n(Whisper)" as Groq
-participant "Mistral API" as Mistral
-participant "ClipDrop API" as ClipDrop
+sequenceDiagram
+    actor Utilisateur
+    participant UI as Streamlit App
+    participant Groq as Groq API (Whisper)
+    participant Mistral as Mistral API
+    participant ClipDrop as ClipDrop API
 
-Utilisateur -> UI : Upload/Record audio
-UI -> Groq : speech_to_text(audio)
-Groq --> UI : texte transcrit
+    Utilisateur ->> UI: Upload/Record audio
+    UI ->> Groq: speech_to_text(audio)
+    Groq -->> UI: texte transcrit
 
-UI -> Mistral : text_analysis(texte)
-Mistral --> UI : résultats émotions (JSON)
+    UI ->> Mistral: text_analysis(texte)
+    Mistral -->> UI: résultats émotions (JSON)
 
-UI -> ClipDrop : text_to_image(texte)
-ClipDrop --> UI : image générée
+    UI ->> ClipDrop: text_to_image(texte)
+    ClipDrop -->> UI: image générée
 
-UI -> Utilisateur : Affiche transcription, émotions, image
-@enduml
+    UI ->> Utilisateur: Affiche transcription, émotions, image
+
 ```
 
 👉 Ce diagramme illustre le flux complet de données, du rêve audio à l’image générée.
