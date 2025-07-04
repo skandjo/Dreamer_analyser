@@ -55,7 +55,7 @@ streamlit run frontend.py
 
 ## 📐 Diagramme de Séquence (Traitement d’un Rêve)
 
-```plantuml
+```mermaid
 sequenceDiagram
     actor Utilisateur
     participant UI as Streamlit App
@@ -74,7 +74,6 @@ sequenceDiagram
     ClipDrop -->> UI: image générée
 
     UI ->> Utilisateur: Affiche transcription, émotions, image
-
 ```
 
 👉 Ce diagramme illustre le flux complet de données, du rêve audio à l’image générée.
