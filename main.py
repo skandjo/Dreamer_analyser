@@ -128,4 +128,3 @@ if __name__ == "__main__":
     fig = create_emotion_chart(analysis_emotions_results)
     fig.show()
     print('Pie chart displayed successfully.')
-    # Exemple d'utilisation
