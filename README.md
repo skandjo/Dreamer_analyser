@@ -35,7 +35,7 @@ CLIPDROP_API_KEY=xxx
 ## 🎮 Lancer l'application
 
 ```bash
-streamlit run frontend.py
+streamlit run app.py
 ```
 
 ---
@@ -84,7 +84,7 @@ sequenceDiagram
 
 ```
 📦 synthetiseur-de-reve
-├── frontend.py              # Interface utilisateur Streamlit
+├── app.py                   # Interface utilisateur Streamlit
 ├── main.py                  # Backend : traitement audio / texte / image
 ├── context_analysis.txt     # Prompt système pour l'analyse émotionnelle
 ├── .env                     # Variables d’API (non versionné)
@@ -98,7 +98,6 @@ sequenceDiagram
 
 - **Python 3.10+**
 - **Streamlit**
-- **streamlit-audiorecorder**
 - **Mistral AI**
 - **Groq Whisper API**
 - **ClipDrop API**
@@ -116,8 +115,8 @@ sequenceDiagram
 
 ## 📣 Auteurs
 
-- 🧑‍💻 Nom de l'étudiant(e) : **[Ton Nom Ici]**
-- 🏫 Projet réalisé dans le cadre du cours **[Nom du cours ou module]**
+- 🧑‍💻 Nom de l'étudiant : **Skander HARIGA**
+- 🏫 Projet réalisé dans le cadre du cours **Deep learning & LSTM**
 - 📅 Date : **Juillet 2025**
 
 ---
