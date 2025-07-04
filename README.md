@@ -1,8 +1,8 @@
 # 🌙 Synthétiseur de Rêve
 
 Une application interactive basée sur Streamlit qui permet d’enregistrer ou uploader un rêve audio, d’en générer automatiquement une **transcription**, une **analyse émotionnelle**, et une **image descriptive** via l’intelligence artificielle.
-
----
+disponible ici : 🌐 [Accéder à l'application Streamlit](https://dreameranalyser-c25egxu6bxbkr4ck9tbcdc.streamlit.app)
+-----> https://dreameranalyser-c25egxu6bxbkr4ck9tbcdc.streamlit.app
 
 ## 🚀 Fonctionnalités
 
