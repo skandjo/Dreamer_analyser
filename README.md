@@ -17,8 +17,6 @@ Une application interactive basée sur Streamlit qui permet d’enregistrer ou u
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/votre-utilisateur/synthetiseur-de-reve.git
-cd synthetiseur-de-reve
 pip install -r requirements.txt
 ```
 
